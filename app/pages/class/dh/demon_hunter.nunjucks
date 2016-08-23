@@ -1,0 +1,14 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div class="crest_dh"></div>
+<div class="class wrapper clearfix">
+    <h1>デーモンハンター</h1>
+    <h2>Demon Hunter</h2>
+    <ul class="menu_spec">
+        <li><a href="havoc.html">Havoc(DPS)</a></li>
+        <li><a href="veangeance.html">Vengeance(タンク)</a></li>
+    </ul>
+</div>
+{% endblock %}

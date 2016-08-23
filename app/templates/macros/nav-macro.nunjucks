@@ -1,0 +1,23 @@
+{% macro active(activePage='home') %}
+<nav>
+    <ul id="menu">
+        <button class="accordion">クラス</button>
+            <ul class="menu_class">
+                <li class="menu_dk" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/death_knight.html">Death Knight</a></li>
+                <li class="menu_dh" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/demon_hunter.html">Demon Hunter</a></li>
+                <li class="menu_dru" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/druid.html">Druid</a></li>
+                <li class="menu_hu" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/hunter.html">Hunter</a></li>
+                <li class="menu_ma" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/mage.html">Mage</a></li>
+                <li class="menu_mo" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/monk.html">Monk</a></li>
+                <li class="menu_pa" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/paladin.html">Paladin</a></li>
+                <li class="menu_pr" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/priest.html">Priest</a></li>
+                <li class="menu_ro" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/rogue.html">Rogue</a></li>
+                <li class="menu_sh" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/shaman.html">Shaman</a></li>
+                <li class="menu_wl" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/warlock.html">Warlock</a></li>
+                <li class="menu_wa" class="{%if activePage == 'home' %} active {% endif %}"><a href="class/warrior.html">Warrior</a></li>
+            </ul>
+        <button class="accordion">ダンジョン・レイド</button>
+        <button class="accordion">成就</button>
+    </ul>
+</nav>
+{% endmacro %}
