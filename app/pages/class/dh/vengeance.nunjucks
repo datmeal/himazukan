@@ -4,11 +4,11 @@
 {% block content %}
 <div class="crest_dh"></div>
 <div class="spec wrapper clearfix">
-    <h1>Havoc(DPS)</h1>
+    <h1>Vengeance(タンク)</h1>
     {% include "partials/spec_menu.nunjucks" %}
     <div id="intro">
         <h1>クラス紹介</h1>
-        <p>ハヴォック(Havoc)とは、止まりがないほど続ける貯め・使い放題プレイスタイルを利用する新たなデーモンハンターのDPSスペックです。使い方としては、Furyを効率的に使うことを判断しながら、状況によってスキルをうまく使いDPSをさらに押すことです。</p>
+        <p>Vengeanceはもっとも新しいDemon Hunterのタンクスペックです。ダブルジャンプや<a href="">Infernal Strike</a>で他のクラスよりもあちこちに早く移動できるため、「移動力の王」と名乗られてます。移動能力や<a href="">Soul Cleave</a>をよく使うのでAOEダメージも高いです。</p>
         <h2>どうやって動くスペックですか？</h2>
         <ul>
             <li>Furyがメインのリソースです。<a href="http://www.wowhead.com/spell=162794">Chaos Strike</a>や<a href="http://www.wowhead.com/spell=188499">Blade Dance</a>のために使い、<a href="http://www.wowhead.com/spell=162243">Demon's Bite</a>で得ます。</li>

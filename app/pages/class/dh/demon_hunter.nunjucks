@@ -8,7 +8,7 @@
     <h2>Demon Hunter</h2>
     <ul class="menu_spec">
         <li><a href="havoc.html">Havoc(DPS)</a></li>
-        <li><a href="veangeance.html">Vengeance(タンク)</a></li>
+        <li><a href="vengeance.html">Vengeance(タンク)</a></li>
     </ul>
 </div>
 {% endblock %}
